@@ -1,0 +1,124 @@
+/* Contact Document */
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background: url('https://wallpapercave.com/wp/wp4286413.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.loading {
+    position: fixed;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000000 url('../images/Loading\ Style.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    z-index: 99999;
+}
+.container {
+    position: absolute;
+    top: auto;
+    left: 10%;
+    width: 80%;
+}
+.contact-box {
+    background:  #e7e7de;
+    display: flex;
+    transition: 0.5s;
+}
+.contact-box:hover {
+    transform: scale(1.04);
+}
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background: #00bdca;
+    color: #011322;
+}
+h1 {
+    color: #011322;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.container p {
+    color: #011322;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group {
+    flex-basis: 45%;
+}
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #011322;
+    outline: none;
+    padding-bottom: 5px;
+    background-color:  #e7e7de;
+    font-family: 'Montserrat', sans-serif;
+}
+textarea {
+    width: 100%;
+    border: 1px solid #011322;
+    outline: none;
+    padding: 10px;
+    box-shadow: border-box;
+    resize: none;
+}
+label {
+    margin-bottom: 5px;
+    display: block;
+    color: #011322;
+}
+button {
+    background-color: #008891;
+    width: 100px;
+    border: none;
+    color:#e7e7de;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px 0px rgba(28, 0, 181, 0.3);
+    cursor: pointer;
+}
+button:hover {
+    background-color: #011322;
+    color:#e7e7de;
+    box-shadow: 0 5px 15px 0px rgba(7, 0, 41, 0.3);
+}
+.contact-left h3 {
+    color: #011322;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3 {
+    color: #011322;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td {
+    padding-top: 20px;
+}
+.bcolumn {
+    font-weight: 600;
+}
+.address {
+    font-size: 12px;
+}

@@ -1,0 +1,69 @@
+/* CSS Loading & CLick 'Visit' */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+	margin:0px;
+	padding:0px;
+}
+
+.loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000 url('../home/images/Loading\ Style.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    z-index: 99999;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video { 
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.banner .content {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    color: #e7e7de;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.banner .content a {
+    margin: 0%;
+    padding: 30px;
+    font-size: 2.1em;
+    background-color: #00d3e2;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0f3057;
+    box-shadow: 0 0 100px #0f3057;
+}
+
+.banner .content a:hover {
+    background-color: #00d3e2;
+    border-radius: 5px;
+    color: #0f3057;
+    box-shadow: 0 0 5px #00d3e2,0 0 25px #00d3e2,0 0 50px #00d3e2,0 0 200px #00d3e2;
+    transition: all ease 0.5s;
+}
